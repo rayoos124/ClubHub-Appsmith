@@ -1,0 +1,255 @@
+{
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "borderColor": "#231f20",
+    "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
+    "topRow": 26,
+    "type": "JSON_FORM_WIDGET",
+    "animateLoading": true,
+    "leftColumn": 1,
+    "dynamicBindingPathList": [
+        {"key": "resetButtonStyles.buttonColor"},
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.date.defaultValue"},
+        {"key": "schema.__root_schema__.children.date.accentColor"},
+        {"key": "schema.__root_schema__.children.date.borderRadius"},
+        {"key": "schema.__root_schema__.children.eventID.defaultValue"},
+        {"key": "schema.__root_schema__.children.eventID.accentColor"},
+        {"key": "schema.__root_schema__.children.eventID.borderRadius"},
+        {"key": "schema.__root_schema__.children.eventName.defaultValue"},
+        {"key": "schema.__root_schema__.children.eventName.accentColor"},
+        {"key": "schema.__root_schema__.children.eventName.borderRadius"},
+        {"key": "schema.__root_schema__.defaultValue"},
+        {"key": "schema.__root_schema__.borderRadius"},
+        {"key": "schema.__root_schema__.cellBorderRadius"},
+        {"key": "submitButtonStyles.buttonColor"}
+    ],
+    "showReset": true,
+    "flexVerticalAlignment": "start",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "autoGenerateForm": true,
+    "resetButtonStyles": {
+        "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        "borderRadius": "1.5rem",
+        "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+        "buttonVariant": "SECONDARY"
+    },
+    "isVisible": true,
+    "version": 1,
+    "tags": [
+        "Suggested",
+        "Layout"
+    ],
+    "isLoading": false,
+    "submitButtonLabel": "Submit",
+    "childStylesheet": {
+        "CHECKBOX": {
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "ARRAY": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "CURRENCY_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "DATEPICKER": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PHONE_NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "OBJECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "MULTISELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PASSWORD_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "EMAIL_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "RADIO_GROUP": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SWITCH": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "MULTILINE_TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "disabledWhenInvalid": true,
+    "borderRadius": "1.5rem",
+    "originalBottomRow": 60,
+    "useSourceData": false,
+    "schema": {"__root_schema__": {
+        "labelTextSize": "0.875rem",
+        "identifier": "__root_schema__",
+        "boxShadow": "none",
+        "isRequired": false,
+        "isCustomField": false,
+        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+        "dataType": "object",
+        "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+        "accessor": "__root_schema__",
+        "isVisible": true,
+        "label": "",
+        "originalIdentifier": "__root_schema__",
+        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+        "children": {
+            "date": {
+                "labelTextSize": "0.875rem",
+                "identifier": "date",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.date))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "dataType": "string",
+                "accessor": "date",
+                "isVisible": false,
+                "label": "Date",
+                "originalIdentifier": "date",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 0,
+                "isDisabled": false,
+                "sourceData": "Tue, 19 Sep 2023 00:00:00 GMT",
+                "fieldType": "Text Input"
+            },
+            "eventID": {
+                "labelTextSize": "0.875rem",
+                "identifier": "eventID",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.eventID))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "dataType": "number",
+                "accessor": "eventID",
+                "isVisible": true,
+                "label": "Event ID",
+                "originalIdentifier": "eventID",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 1,
+                "isDisabled": false,
+                "sourceData": 3,
+                "fieldType": "Number Input"
+            },
+            "eventName": {
+                "labelTextSize": "0.875rem",
+                "identifier": "eventName",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.eventName))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "dataType": "string",
+                "accessor": "eventName",
+                "isVisible": true,
+                "label": "Event Name",
+                "originalIdentifier": "eventName",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(President_Updates_Events.sourceData, President_Updates_Events.formData, President_Updates_Events.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 2,
+                "isDisabled": false,
+                "sourceData": "Wild Thornberrys Movie, The",
+                "fieldType": "Text Input"
+            }
+        },
+        "position": -1,
+        "isDisabled": false,
+        "sourceData": {
+            "date": "Tue, 19 Sep 2023 00:00:00 GMT",
+            "eventID": 3,
+            "eventName": "Wild Thornberrys Movie, The"
+        },
+        "cellBoxShadow": "none",
+        "fieldType": "Object"
+    }},
+    "needsErrorInfo": false,
+    "mobileBottomRow": 43,
+    "widgetName": "President_Updates_Events",
+    "submitButtonStyles": {
+        "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        "borderRadius": "1.5rem",
+        "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+        "buttonVariant": "PRIMARY"
+    },
+    "dynamicPropertyPathList": [],
+    "displayName": "JSON Form",
+    "bottomRow": 60,
+    "fieldLimitExceeded": false,
+    "parentRowSpace": 10,
+    "title": "Update Events",
+    "hideCard": false,
+    "mobileRightColumn": 26,
+    "parentColumnSpace": 26.890625,
+    "dynamicTriggerPathList": [],
+    "borderWidth": "1",
+    "sourceData": "{{Events_Data.selectedRow}}",
+    "resetButtonLabel": "Reset",
+    "key": "hez0k3c3ks",
+    "backgroundColor": "#d8b4fe",
+    "isDeprecated": false,
+    "rightColumn": 26,
+    "widgetId": "p47ie1t2ym",
+    "minWidth": 450,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 2,
+    "scrollContents": true,
+    "responsiveBehavior": "fill",
+    "fixedFooter": true,
+    "originalTopRow": 26,
+    "mobileLeftColumn": 1,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Alumni Views Members",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Alumni Views Members_JSObject1",
+  "deleted": false,
+  "gitSyncId": "66221b9ba3b7c94d2f4666f4_662319595ff52357d2623bfa"
+}

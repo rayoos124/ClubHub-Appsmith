@@ -1,0 +1,286 @@
+{
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "borderColor": "#231f20",
+    "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
+    "onSubmit": "{{PresPutFaculty.run().then(() => {\n  PresGetFaculty.run();\n});}}",
+    "topRow": 27,
+    "type": "JSON_FORM_WIDGET",
+    "animateLoading": true,
+    "leftColumn": 1,
+    "dynamicBindingPathList": [
+        {"key": "submitButtonStyles.buttonColor"},
+        {"key": "resetButtonStyles.buttonColor"},
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.clubID.defaultValue"},
+        {"key": "schema.__root_schema__.children.clubID.accentColor"},
+        {"key": "schema.__root_schema__.children.clubID.borderRadius"},
+        {"key": "schema.__root_schema__.children.email.defaultValue"},
+        {"key": "schema.__root_schema__.children.email.accentColor"},
+        {"key": "schema.__root_schema__.children.email.borderRadius"},
+        {"key": "schema.__root_schema__.children.firstName.defaultValue"},
+        {"key": "schema.__root_schema__.children.firstName.accentColor"},
+        {"key": "schema.__root_schema__.children.firstName.borderRadius"},
+        {"key": "schema.__root_schema__.children.lastName.defaultValue"},
+        {"key": "schema.__root_schema__.children.lastName.accentColor"},
+        {"key": "schema.__root_schema__.children.lastName.borderRadius"},
+        {"key": "schema.__root_schema__.defaultValue"},
+        {"key": "schema.__root_schema__.borderRadius"},
+        {"key": "schema.__root_schema__.cellBorderRadius"}
+    ],
+    "showReset": true,
+    "flexVerticalAlignment": "start",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "autoGenerateForm": true,
+    "resetButtonStyles": {
+        "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        "borderRadius": "1.5rem",
+        "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+        "buttonVariant": "SECONDARY"
+    },
+    "isVisible": true,
+    "version": 1,
+    "tags": [
+        "Suggested",
+        "Layout"
+    ],
+    "isLoading": false,
+    "submitButtonLabel": "Submit",
+    "childStylesheet": {
+        "CHECKBOX": {
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "ARRAY": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "CURRENCY_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "DATEPICKER": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PHONE_NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "OBJECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "MULTISELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PASSWORD_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "EMAIL_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "RADIO_GROUP": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SWITCH": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "MULTILINE_TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "disabledWhenInvalid": true,
+    "borderRadius": "1.5rem",
+    "originalBottomRow": 76,
+    "useSourceData": false,
+    "schema": {"__root_schema__": {
+        "labelTextSize": "0.875rem",
+        "identifier": "__root_schema__",
+        "boxShadow": "none",
+        "isRequired": false,
+        "isCustomField": false,
+        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+        "dataType": "object",
+        "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+        "accessor": "__root_schema__",
+        "isVisible": true,
+        "label": "",
+        "originalIdentifier": "__root_schema__",
+        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+        "children": {
+            "firstName": {
+                "labelTextSize": "0.875rem",
+                "identifier": "firstName",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.firstName))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "dataType": "string",
+                "accessor": "firstName",
+                "isVisible": true,
+                "label": "First Name",
+                "originalIdentifier": "firstName",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 2,
+                "isDisabled": false,
+                "sourceData": "Ellis",
+                "fieldType": "Text Input"
+            },
+            "lastName": {
+                "labelTextSize": "0.875rem",
+                "identifier": "lastName",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.lastName))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "dataType": "string",
+                "accessor": "lastName",
+                "isVisible": true,
+                "label": "Last Name",
+                "originalIdentifier": "lastName",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 3,
+                "isDisabled": false,
+                "sourceData": "Santus",
+                "fieldType": "Text Input"
+            },
+            "clubID": {
+                "labelTextSize": "0.875rem",
+                "identifier": "clubID",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.clubID))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "dataType": "string",
+                "accessor": "clubID",
+                "isVisible": true,
+                "label": "Club ID",
+                "originalIdentifier": "clubID",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 0,
+                "isDisabled": false,
+                "sourceData": "19",
+                "fieldType": "Text Input"
+            },
+            "email": {
+                "labelTextSize": "0.875rem",
+                "identifier": "email",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.email))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "dataType": "string",
+                "accessor": "email",
+                "isVisible": true,
+                "label": "Email",
+                "originalIdentifier": "email",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(faculty_update.sourceData, faculty_update.formData, faculty_update.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 1,
+                "isDisabled": false,
+                "sourceData": "aborsi1a@oakley.com",
+                "fieldType": "Email Input"
+            }
+        },
+        "position": -1,
+        "isDisabled": false,
+        "sourceData": {
+            "firstName": "Ellis",
+            "lastName": "Santus",
+            "phoneNumber": "252-881-1090",
+            "clubID": "19",
+            "position": "Occupational Therapist",
+            "email": "aborsi1a@oakley.com",
+            "memberID": "47",
+            "status": "alumni_member"
+        },
+        "cellBoxShadow": "none",
+        "fieldType": "Object"
+    }},
+    "needsErrorInfo": false,
+    "mobileBottomRow": 45,
+    "widgetName": "faculty_update",
+    "submitButtonStyles": {
+        "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        "borderRadius": "1.5rem",
+        "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
+        "buttonVariant": "PRIMARY"
+    },
+    "dynamicPropertyPathList": [],
+    "displayName": "JSON Form",
+    "bottomRow": 76,
+    "fieldLimitExceeded": false,
+    "parentRowSpace": 10,
+    "title": "Update Faculty",
+    "hideCard": false,
+    "mobileRightColumn": 25,
+    "parentColumnSpace": 24.40625,
+    "dynamicTriggerPathList": [{"key": "onSubmit"}],
+    "borderWidth": "1",
+    "sourceData": "{{Faculty_List.selectedRow}}",
+    "resetButtonLabel": "Reset",
+    "key": "hez0k3c3ks",
+    "backgroundColor": "#d8b4fe",
+    "isDeprecated": false,
+    "rightColumn": 26,
+    "widgetId": "sax8sk7bnj",
+    "minWidth": 450,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 4,
+    "scrollContents": true,
+    "responsiveBehavior": "fill",
+    "fixedFooter": true,
+    "originalTopRow": 27,
+    "mobileLeftColumn": 0,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

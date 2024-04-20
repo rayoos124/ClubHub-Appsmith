@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "id": "President Updates Faculty",
+      "isDefault": false
+    },
+    {
+      "id": "President Updates Events",
+      "isDefault": true
+    },
+    {
+      "id": "Member Views All Job Listings",
+      "isDefault": false
+    },
+    {
+      "id": "Member Views All Members",
+      "isDefault": false
+    },
+    {
+      "id": "Advisor Views Documents",
+      "isDefault": false
+    },
+    {
+      "id": "Advisor View Compliance Status",
+      "isDefault": false
+    },
+    {
+      "id": "President Views Club Budgets",
+      "isDefault": false
+    },
+    {
+      "id": "Alumni Views Members",
+      "isDefault": false
+    },
+    {
+      "id": "President Removes Faculty",
+      "isDefault": false
+    },
+    {
+      "id": "President Adds Faculty",
+      "isDefault": false
+    },
+    {
+      "id": "President Manage Events",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
+    },
+    {
+      "id": "President Home",
+      "isDefault": false
+    },
+    {
+      "id": "Member Home",
+      "isDefault": false
+    },
+    {
+      "id": "Advisor Home",
+      "isDefault": false
+    },
+    {
+      "id": "Alumni Member Home",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#E3DEFF",
+  "icon": "laptop",
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}

@@ -1,0 +1,279 @@
+{
+    "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "borderColor": "#3f3f46",
+    "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
+    "topRow": 19,
+    "type": "JSON_FORM_WIDGET",
+    "animateLoading": true,
+    "leftColumn": 2,
+    "dynamicBindingPathList": [
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.accountNumber.defaultValue"},
+        {"key": "schema.__root_schema__.children.accountNumber.accentColor"},
+        {"key": "schema.__root_schema__.children.accountNumber.borderRadius"},
+        {"key": "schema.__root_schema__.children.clubID.defaultValue"},
+        {"key": "schema.__root_schema__.children.clubID.accentColor"},
+        {"key": "schema.__root_schema__.children.clubID.borderRadius"},
+        {"key": "schema.__root_schema__.children.totalClubBudget.defaultValue"},
+        {"key": "schema.__root_schema__.children.totalClubBudget.accentColor"},
+        {"key": "schema.__root_schema__.children.totalClubBudget.borderRadius"},
+        {"key": "schema.__root_schema__.children.totalClubBudgetSpent.defaultValue"},
+        {"key": "schema.__root_schema__.children.totalClubBudgetSpent.accentColor"},
+        {"key": "schema.__root_schema__.children.totalClubBudgetSpent.borderRadius"},
+        {"key": "schema.__root_schema__.defaultValue"},
+        {"key": "schema.__root_schema__.borderRadius"},
+        {"key": "schema.__root_schema__.cellBorderRadius"}
+    ],
+    "showReset": true,
+    "flexVerticalAlignment": "start",
+    "dynamicHeight": "AUTO_HEIGHT",
+    "autoGenerateForm": true,
+    "resetButtonStyles": {
+        "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        "borderRadius": "1.5rem",
+        "buttonColor": "#ffffff",
+        "buttonVariant": "SECONDARY"
+    },
+    "isVisible": true,
+    "version": 1,
+    "tags": [
+        "Suggested",
+        "Layout"
+    ],
+    "isLoading": false,
+    "submitButtonLabel": "Submit",
+    "childStylesheet": {
+        "CHECKBOX": {
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "ARRAY": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "CURRENCY_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "DATEPICKER": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PHONE_NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "OBJECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "cellBoxShadow": "none"
+        },
+        "MULTISELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SELECT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "NUMBER_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "PASSWORD_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "EMAIL_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "RADIO_GROUP": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "SWITCH": {
+            "boxShadow": "none",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        },
+        "MULTILINE_TEXT_INPUT": {
+            "boxShadow": "none",
+            "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+            "accentColor": "{{appsmith.theme.colors.primaryColor}}"
+        }
+    },
+    "disabledWhenInvalid": true,
+    "borderRadius": "1.5rem",
+    "originalBottomRow": 68,
+    "useSourceData": false,
+    "schema": {"__root_schema__": {
+        "labelTextSize": "0.875rem",
+        "identifier": "__root_schema__",
+        "boxShadow": "none",
+        "isRequired": false,
+        "isCustomField": false,
+        "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+        "dataType": "object",
+        "cellBorderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+        "accessor": "__root_schema__",
+        "isVisible": true,
+        "label": "",
+        "originalIdentifier": "__root_schema__",
+        "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+        "children": {
+            "clubID": {
+                "labelTextSize": "0.875rem",
+                "identifier": "clubID",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.clubID))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "dataType": "string",
+                "accessor": "clubID",
+                "isVisible": true,
+                "label": "Club ID",
+                "originalIdentifier": "clubID",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 1,
+                "isDisabled": false,
+                "sourceData": "41",
+                "fieldType": "Text Input"
+            },
+            "accountNumber": {
+                "labelTextSize": "0.875rem",
+                "identifier": "accountNumber",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.accountNumber))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "dataType": "string",
+                "accessor": "accountNumber",
+                "isVisible": true,
+                "label": "Account Number",
+                "originalIdentifier": "accountNumber",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 0,
+                "isDisabled": false,
+                "sourceData": "10704015",
+                "fieldType": "Text Input"
+            },
+            "totalClubBudget": {
+                "labelTextSize": "0.875rem",
+                "identifier": "totalClubBudget",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.totalClubBudget))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "dataType": "string",
+                "accessor": "totalClubBudget",
+                "isVisible": true,
+                "label": "Total Club Budget",
+                "originalIdentifier": "totalClubBudget",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 2,
+                "isDisabled": false,
+                "sourceData": "9694.29",
+                "fieldType": "Text Input"
+            },
+            "totalClubBudgetSpent": {
+                "labelTextSize": "0.875rem",
+                "identifier": "totalClubBudgetSpent",
+                "boxShadow": "none",
+                "isRequired": false,
+                "isCustomField": false,
+                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.totalClubBudgetSpent))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "dataType": "string",
+                "accessor": "totalClubBudgetSpent",
+                "isVisible": true,
+                "label": "Total Club Budget Spent",
+                "originalIdentifier": "totalClubBudgetSpent",
+                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Club_Budget.sourceData, Club_Budget.formData, Club_Budget.fieldState)}}",
+                "children": {},
+                "isSpellCheck": false,
+                "iconAlign": "left",
+                "position": 3,
+                "isDisabled": false,
+                "sourceData": "4739.42",
+                "fieldType": "Text Input"
+            }
+        },
+        "position": -1,
+        "isDisabled": false,
+        "sourceData": {
+            "clubID": "41",
+            "accountNumber": "10704015",
+            "totalClubBudget": "9694.29",
+            "totalClubBudgetSpent": "4739.42"
+        },
+        "cellBoxShadow": "none",
+        "fieldType": "Object"
+    }},
+    "needsErrorInfo": false,
+    "mobileBottomRow": 51,
+    "widgetName": "Club_Budget",
+    "submitButtonStyles": {
+        "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+        "borderRadius": "1.5rem",
+        "buttonColor": "#ffffff",
+        "buttonVariant": "PRIMARY"
+    },
+    "dynamicPropertyPathList": [],
+    "displayName": "JSON Form",
+    "bottomRow": 68,
+    "fieldLimitExceeded": false,
+    "parentRowSpace": 10,
+    "title": "Club Budget",
+    "hideCard": false,
+    "mobileRightColumn": 23,
+    "parentColumnSpace": 24.40625,
+    "dynamicTriggerPathList": [],
+    "borderWidth": "1",
+    "sourceData": "{{Club_Budget_Data.selectedRow}}",
+    "resetButtonLabel": "Reset",
+    "key": "hez0k3c3ks",
+    "backgroundColor": "#d8b4fe",
+    "isDeprecated": false,
+    "rightColumn": 25,
+    "widgetId": "x1cpvksml9",
+    "minWidth": 450,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "mobileTopRow": 10,
+    "scrollContents": true,
+    "responsiveBehavior": "fill",
+    "fixedFooter": true,
+    "originalTopRow": 19,
+    "mobileLeftColumn": 0,
+    "maxDynamicHeight": 9000,
+    "minDynamicHeight": 4
+}

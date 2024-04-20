@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Advisor View Compliance Status",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Advisor View Compliance Status_JSObject1",
+  "deleted": false,
+  "gitSyncId": "66221b9ba3b7c94d2f4666f4_6622c3915ff52357d2623bd9"
+}
